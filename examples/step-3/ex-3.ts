@@ -1,10 +1,10 @@
-function getFullName(firstname:string , surname: string ):string {
+function getFullNameEX3(firstname: string, surname: string): string {
   return `${firstname} ${surname}`
 }
 
 
-const getFullNameArrow = (firstname: string, surname: string): string  => `${firstname} ${surname}`
+const getFullNameArrowEX3 = (firstname: string, surname: string): string => `${firstname} ${surname}`
 
-console.log(getFullName('Mikhail','Timashov'))
+console.log(getFullNameEX3('Mikhail', 'Timashov'))
 
 /* Написали как записываются типы для функций */
