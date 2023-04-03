@@ -13,7 +13,6 @@ type UserWithRole = {
 }
 
 
-
 let userS4EX3: UserWithRole = {
   name: 'asd',
   age: 33,

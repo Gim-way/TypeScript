@@ -27,7 +27,7 @@ function logObject(obj: { a: number } | { b: number }) {
 }
 
 function logMultipleIds(a: string | number, b: string | boolean) {
-  if (a === b ) {
+  if (a === b) {
 
   } else {
     console.log(a)

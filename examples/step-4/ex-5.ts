@@ -3,7 +3,7 @@ interface UserS4EX5 {
 }
 
 interface UserS4EX5 {
-  age: number;
+  age: number
 }
 
 const userS4EX5: UserS4EX5 = {
