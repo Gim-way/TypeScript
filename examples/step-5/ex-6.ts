@@ -1,7 +1,7 @@
 interface ILogger {
-  log(...args): void
+  log(...args:[]): void
 
-  error(...args): void
+  error(...args:[]): void
 }
 
 class Looger implements ILogger {
