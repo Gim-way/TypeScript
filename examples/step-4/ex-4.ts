@@ -31,9 +31,9 @@ let userS4EX4: UserWithRoleS4EX4 = {
   createdAt: new Date(),
 
   log(id) {
-    return '';
+    return ''
   }
-};
+}
 
 interface UserDic {
   [index: string]: User
