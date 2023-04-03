@@ -1,25 +1,25 @@
 type PaymentStatusS5EX7 = 'new' | 'paid';
 
 class PaymentS5EX7 {
-  id: number;
-  status: PaymentStatusS5EX7 = 'new';
+  id: number
+  status: PaymentStatusS5EX7 = 'new'
 
   constructor(id: number) {
-    this.id = id;
+    this.id = id
   }
 
   pay() {
-    this.status = 'paid';
+    this.status = 'paid'
   }
 }
 
 class PersistedPaymentS5EX7 extends PaymentS5EX7 {
-  databaseId: number;
-  paidAt: Date;
+  databaseId: number
+  paidAt: Date
 
   constructor() {
-    const id = Math.random();
-    super(id);
+    const id = Math.random()
+    super(id)
   }
 
   save() {
@@ -27,13 +27,13 @@ class PersistedPaymentS5EX7 extends PaymentS5EX7 {
   }
 
   override pay(date?: Date) {
-    super.pay();
+    super.pay()
     if (date) {
-      this.paidAt = date;
+      this.paidAt = date
     }
   }
 }
 
-new PersistedPaymentS5EX7();
+new PersistedPaymentS5EX7()
 
 /* Extends - зависимости от одного класса к другому принимая его зависимости */
