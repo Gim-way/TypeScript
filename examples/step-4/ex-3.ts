@@ -13,11 +13,11 @@ type UserWithRole = {
 }
 
 
-let userS4EX3: UserWithRole = {
+/* let userS4EX3: UserWithRole = {
   name: 'asd',
   age: 33,
   skills: ['1', '2'],
   id: 1
-}
+} */
 
 /* Type Alias - эффективно записываем типы*/
