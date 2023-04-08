@@ -36,11 +36,11 @@ let userS4EX4: UserWithRoleS4EX4 = {
 }
 
 interface UserDic {
-  [index: string]: User
+  [index: string]: UserS6EX5
 }
 
 type UserDic2 = {
-  [index: number]: User
+  [index: number]: UserS6EX5
 }
 
 /* Interface - запись Типов. В interface должны extends, если ходим объединить два типа   */
