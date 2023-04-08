@@ -3,7 +3,7 @@ let input: unknown
 input = 3
 input = ['sf', 'sdf']
 
-function run(i: unknown) {
+function runS4EX8(i: unknown) {
   if (typeof i == 'number') {
     i++
   } else {
@@ -11,7 +11,7 @@ function run(i: unknown) {
   }
 }
 
-run(input)
+runS4EX8(input)
 
 
 async function getData() {
