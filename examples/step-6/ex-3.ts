@@ -1,0 +1,1 @@
+const aS5EX3: number = 5
