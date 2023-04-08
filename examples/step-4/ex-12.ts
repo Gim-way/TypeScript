@@ -16,14 +16,14 @@ interface AdminS4EX12 {
 }
 
 function logIdS4EX12(id: string | number) {
-  if (isString(id)) {
+  if (isStringS4EX12(id)) {
     console.log(id)
   } else {
     console.log(id)
   }
 }
 
-function isString(x: string | number): x is string {
+function isStringS4EX12(x: string | number): x is string {
   return typeof x === 'string'
 }
 
