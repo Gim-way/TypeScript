@@ -14,7 +14,7 @@ function runS4EX8(i: unknown) {
 runS4EX8(input)
 
 
-async function getData() {
+async function getDataS4EX8() {
   try {
     await fetch('')
   } catch (error) {
