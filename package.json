@@ -4,7 +4,7 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "build": "tsc examples/step-11/ex-3.ts"
+    "build": "tsc"
   },
   "devDependencies": {
     "@types/node": "^18.15.11",
