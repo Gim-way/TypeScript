@@ -12,6 +12,7 @@
     "typescript": "^5.0.2"
   },
   "dependencies": {
+    "really-relaxed-json": "^0.3.2",
     "reflect-metadata": "^0.1.13"
   }
 }
