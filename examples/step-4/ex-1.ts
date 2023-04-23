@@ -1,6 +1,6 @@
 const arrEX1 = ['text', 1]
 
-function logId(id: string | number | boolean) {
+function logIdS4EX1(id: string | number | boolean) {
   if (typeof id === 'string') {
     console.log(id.toLowerCase())
   } else if (typeof id === 'number') {
@@ -35,8 +35,8 @@ function logMultipleIds(a: string | number, b: string | boolean) {
 
 }
 
-logId(1)
-logId('Text')
-logId(true)
+logIdS4EX1(1)
+logIdS4EX1('Text')
+logIdS4EX1(true)
 
 /* Union Тип может быть string | number | boolean | array | object */

@@ -8,7 +8,7 @@ const userS4EX6: UserS4EX6 = {
   password: '1'
 }
 
-function multiply(first: number, second?: number): number {
+function multiplyS4EX6(first: number, second?: number): number {
   if (!second) {
     return first * first
   }
@@ -16,7 +16,7 @@ function multiply(first: number, second?: number): number {
   /* Сужение типов */
 }
 
-multiply(5)
+multiplyS4EX6(5)
 
 
 interface UserPropsS4EX6 {
@@ -32,7 +32,7 @@ function testPass(user: UserPropsS4EX6) {
 }
 
 function testE4EX6(param?: string) {
-  const t2 = param ?? multiply(5)
+  const t2 = param ?? multiplyS4EX6(5)
 }
 
 /* Optional (?) - делает опциональным свойство */

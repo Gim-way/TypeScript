@@ -16,26 +16,26 @@ interface AdminS4EX12 {
 }
 
 function logIdS4EX12(id: string | number) {
-  if (isString(id)) {
+  if (isStringS4EX12(id)) {
     console.log(id)
   } else {
     console.log(id)
   }
 }
 
-function isString(x: string | number): x is string {
+function isStringS4EX12(x: string | number): x is string {
   return typeof x === 'string'
 }
 
-function isAdmin(userS4EX12: User | AdminS4EX12): userS4EX12 is AdminS4EX12 {
+function isAdmin(userS4EX12: UserS6EX5 | AdminS4EX12): userS4EX12 is AdminS4EX12 {
   return 'role' in userS4EX12
 }
 
-function isAdminAlternative(userS4EX12: User | AdminS4EX12): userS4EX12 is AdminS4EX12 {
+function isAdminAlternative(userS4EX12: UserS6EX5 | AdminS4EX12): userS4EX12 is AdminS4EX12 {
   return (userS4EX12 as AdminS4EX12).role !== undefined
 }
 
-function setRoleZero(userS4EX12: User | AdminS4EX12) {
+function setRoleZero(userS4EX12: UserS6EX5 | AdminS4EX12) {
   if (isAdmin(userS4EX12)) {
     userS4EX12.role = 0
   } else {

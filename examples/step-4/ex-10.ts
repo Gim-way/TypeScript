@@ -10,7 +10,7 @@ interface UserS4EX10 {
   name: string;
 }
 
-function getUser() {
+function getUserS4EX10() {
   if (Math.random() > 0.5) {
     return null
   } else {
@@ -20,7 +20,7 @@ function getUser() {
   }
 }
 
-const userS4EX10 = getUser()
+const userS4EX10 = getUserS4EX10()
 if (userS4EX10) {
   const n55S4EX10 = userS4EX10.name
 }
