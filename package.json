@@ -2,8 +2,9 @@
   "name": "purple-school",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc examples/step-11/ex-3.ts"
   },
   "devDependencies": {
     "@types/node": "^18.15.11",
